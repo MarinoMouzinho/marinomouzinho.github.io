@@ -1,0 +1,40 @@
+{
+  "experiences": [
+    {
+      "period": "2026 – Atualmente",
+      "role": "Residente em Jogos na Indústria 4.0",
+      "company": "IFPB + Softex + FUNETEC",
+      "description": "Desenvolvimento de jogos digitais voltados para a Indústria 4.0, utilizando Godot, Unity e outras engines."
+    },
+    {
+      "period": "Jun/2026 – Atualmente",
+      "role": "Desenvolvedor Mobile (Projeto de Ensino)",
+      "company": "Desenvolvendo Jogos Digitais Mobile para Comunidade",
+      "description": "Desenvolvimento de aplicações e jogos voltados para dispositivos móveis utilizando Android Studio em Kotlin."
+    },
+    {
+      "period": "Mar/2025 – Dez/2025",
+      "role": "Monitor de Programação Orientada a Objetos",
+      "company": "IFPB",
+      "description": "Auxílio a discentes na resolução de dúvidas, apoio em atividades práticas de POO, orientação no uso de ferramentas de desenvolvimento e acompanhamento junto ao docente."
+    },
+    {
+      "period": "2024.1",
+      "role": "Monitor de Estrutura de Dados",
+      "company": "IFPB",
+      "description": "Suporte aos alunos em lógica avançada, algoritmos e estruturas de dados, auxiliando em listas práticas e laboratórios."
+    }
+  ],
+  "education": [
+    {
+      "period": "08/2022 – Presente",
+      "degree": "Bacharelado em Engenharia de Computação",
+      "institution": "IFPB — Campina Grande / PB"
+    },
+    {
+      "period": "2016 – 2018",
+      "degree": "Técnico em Informática",
+      "institution": "IFPB — Esperança / PB"
+    }
+  ]
+}

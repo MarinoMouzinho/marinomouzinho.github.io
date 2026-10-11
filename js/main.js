@@ -104,6 +104,51 @@ function renderProjects(projects) {
 
 loadProjects();
 
+// --- Renderização Dinâmica de Experiências e Formação via JSON ---
+async function loadExperiences() {
+  try {
+    const response = await fetch("data/experiences.json"); // Ajuste o caminho se necessário (ex: "data/experiences.json")
+    if (!response.ok) throw new Error("Erro ao carregar o arquivo de experiências.");
+    
+    const data = await response.json();
+    renderExperiences(data.experiences, "experience-grid", "exp");
+    renderExperiences(data.education, "education-grid", "edu");
+  } catch (error) {
+    console.error("Erro ao carregar experiências:", error);
+  }
+}
+
+function renderExperiences(items, elementId, type) {
+  const container = document.getElementById(elementId);
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  items.forEach((item) => {
+    const div = document.createElement("div");
+    div.className = "timeline-item";
+
+    if (type === "exp") {
+      div.innerHTML = `
+        <span class="timeline-period">${item.period}</span>
+        <h4 class="timeline-title">${item.role}</h4>
+        <span class="timeline-company">${item.company}</span>
+        <p class="timeline-description">${item.description}</p>
+      `;
+    } else {
+      div.innerHTML = `
+        <span class="timeline-period">${item.period}</span>
+        <h4 class="timeline-title">${item.degree}</h4>
+        <span class="timeline-company">${item.institution}</span>
+      `;
+    }
+
+    container.appendChild(div);
+  });
+}
+
+loadExperiences();
+
 // --- Lógica de Filtro dos Projetos dinâmicos corrigida ---
 function setupFilterListeners() {
   const filterButtons = document.querySelectorAll(".project-filter button");

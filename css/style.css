@@ -359,6 +359,77 @@ body, .site-content {
   line-height: 1.8;
 }
 
+/* Estilos para Experiência e Formação */
+.trajectory-subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+}
+
+.timeline-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-left: 2px solid var(--border-color);
+  padding-left: 1.5rem;
+  margin-left: 0.25rem;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.5rem - 6px);
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--muted);
+  border: 2px solid var(--background);
+  transition: background-color 0.3s ease;
+}
+
+.timeline-item:hover::before {
+  background: var(--foreground);
+}
+
+.timeline-period {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.timeline-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin: 0;
+}
+
+.timeline-company {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.timeline-description {
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-top: 0.25rem;
+  max-width: 700px;
+}
+
 .project-filter {
   position: sticky;
   top: 3rem;
