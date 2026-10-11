@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Sintaxe Turismo",
+    "category": "software",
+    "year": "2026",
+    "description": "Sistema de gestão e reserva de passagens com múltiplas telas.",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/MarinoMouzinho" },
+      { "name": "Figma", "url": "https://www.behance.net/marinomouz" }
+    ],
+    "technologies": ["C++", "Banco de dados"],
+    "images": [
+      { "url": "https://imgs.search.brave.com/7dlTCZ2sOYn9TpouPnUnqb9uG53INI7uCLr5KRNa8gc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3RvY2t2YXVsdC5u/ZXQvZGF0YS8yMDIw/LzEwLzExLzI3OTYy/My90aHVtYjE2Lmpw/Zw", "alt": "Sintaxe Turismo 1" },
+      { "url": "https://imgs.search.brave.com/n5QKojXP3ReIDI8nDIARfSQ1NVOlO6-_lwGzo914tuM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZGVhdGh0b3RoZXN0/b2NrLmNvbS9PdXIl/MjBQcm9kdWN0aW9u/cy82ODUxZDY0YmFj/MGEzOWIxYjNjYmJi/NjdfRFRTX1RIRV9J/TlRFUk5fU2hhdW5h/X1N1bW1lcnNfUGhv/dG9zX0lEMTEzNjIu/anBlZw", "alt": "Sintaxe Turismo 2" },
+      { "url": "https://imgs.search.brave.com/XtymN3Ta4PNTZymwsFxOAQ9AxSrQT4CwrmCzHebZMuI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZGVhdGh0b3RoZXN0/b2NrLmNvbS9PdXIl/MjBQcm9kdWN0aW9u/cy82ODUxZDYxMDA2/OGE0ODQzYjRmY2E3/YTVfRFRTX1RIRV9J/TlRFUk5fU2hhdW5h/X1N1bW1lcnNfUGhv/dG9zX0lEMTE0MDYu/d2VicA", "alt": "Sintaxe Turismo 3" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Biblioteca Autônoma",
+    "category": "software",
+    "year": "2025",
+    "description": "Sistema de empréstimo de livros com identificação eletrônica.",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/MarinoMouzinho" }
+    ],
+    "technologies": ["C++", "RFID", "JSON"],
+    "images": [
+      { "url": "https://imgs.search.brave.com/XtymN3Ta4PNTZymwsFxOAQ9AxSrQT4CwrmCzHebZMuI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZGVhdGh0b3RoZXN0/b2NrLmNvbS9PdXIl/MjBQcm9kdWN0aW9u/cy82ODUxZDYxMDA2/OGE0ODQzYjRmY2E3/YTVfRFRTX1RIRV9J/TlRFUk5fU2hhdW5h/X1N1bW1lcnNfUGhv/dG9zX0lEMTE0MDYu/d2VicA", "alt": "Biblioteca Autônoma" }
+    ]
+  }
+]
