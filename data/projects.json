@@ -1,33 +1,152 @@
 [
   {
     "id": 1,
-    "title": "Sintaxe Turismo",
+    "title": "Viajante",
     "category": "software",
-    "year": "2026",
-    "description": "Sistema de gestão e reserva de passagens com múltiplas telas.",
-    "links": [
-      { "name": "GitHub", "url": "https://github.com/MarinoMouzinho" },
-      { "name": "Figma", "url": "https://www.behance.net/marinomouz" }
-    ],
-    "technologies": ["C++", "Banco de dados"],
+    "year": "Outubro 2026 - Atualmente",
+    "description": "Sistema agêntico com LLM conversacional (por voz ou texto) para auxilio no atendimento ao cliente de agência de viagens.",
+    "links": [],
+    "technologies": ["IA", "LLM", "Sistemas Agênticos"],
     "images": [
-      { "url": "https://imgs.search.brave.com/7dlTCZ2sOYn9TpouPnUnqb9uG53INI7uCLr5KRNa8gc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3RvY2t2YXVsdC5u/ZXQvZGF0YS8yMDIw/LzEwLzExLzI3OTYy/My90aHVtYjE2Lmpw/Zw", "alt": "Sintaxe Turismo 1" },
-      { "url": "https://imgs.search.brave.com/n5QKojXP3ReIDI8nDIARfSQ1NVOlO6-_lwGzo914tuM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZGVhdGh0b3RoZXN0/b2NrLmNvbS9PdXIl/MjBQcm9kdWN0aW9u/cy82ODUxZDY0YmFj/MGEzOWIxYjNjYmJi/NjdfRFRTX1RIRV9J/TlRFUk5fU2hhdW5h/X1N1bW1lcnNfUGhv/dG9zX0lEMTEzNjIu/anBlZw", "alt": "Sintaxe Turismo 2" },
-      { "url": "https://imgs.search.brave.com/XtymN3Ta4PNTZymwsFxOAQ9AxSrQT4CwrmCzHebZMuI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZGVhdGh0b3RoZXN0/b2NrLmNvbS9PdXIl/MjBQcm9kdWN0aW9u/cy82ODUxZDYxMDA2/OGE0ODQzYjRmY2E3/YTVfRFRTX1RIRV9J/TlRFUk5fU2hhdW5h/X1N1bW1lcnNfUGhv/dG9zX0lEMTE0MDYu/d2VicA", "alt": "Sintaxe Turismo 3" }
+      { "url": "images/projects/sintaxe-turismo.jpg", "alt": "Viajante" }
     ]
   },
   {
     "id": 2,
-    "title": "Biblioteca Autônoma",
+    "title": "Sequencia!",
+    "category": "jogos",
+    "year": "Agosto 2026",
+    "description": "Jogo Mobile desenvolvido com Android Studio em kotlin baseado no jogo de cartas 'Dobro'.",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/MarinoMouzinho/sequencia-android-game" }
+    ],
+    "technologies": ["Android Studio", "Kotlin", "Mobile"],
+    "images": [
+      { "url": "images/projects/sintaxe-turismo.jpg", "alt": "Sequencia!" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Smart Hydrometer AI",
     "category": "software",
     "year": "2025",
-    "description": "Sistema de empréstimo de livros com identificação eletrônica.",
+    "description": "Sistema inteligente de monitoramento e análise de fluxo de água utilizando IoT, Inteligência Artificial e processamento em lote para identificação de anomalias, detecção de ar na tubulação e geração automática de relatórios analíticos.",
     "links": [
-      { "name": "GitHub", "url": "https://github.com/MarinoMouzinho" }
+      { "name": "GitHub", "url": "https://github.com/Brunalu28/smart-hydrometer-ai" }
     ],
-    "technologies": ["C++", "RFID", "JSON"],
+    "technologies": ["IoT", "Inteligência Artificial", "Hardware"],
     "images": [
-      { "url": "https://imgs.search.brave.com/XtymN3Ta4PNTZymwsFxOAQ9AxSrQT4CwrmCzHebZMuI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZGVhdGh0b3RoZXN0/b2NrLmNvbS9PdXIl/MjBQcm9kdWN0aW9u/cy82ODUxZDYxMDA2/OGE0ODQzYjRmY2E3/YTVfRFRTX1RIRV9J/TlRFUk5fU2hhdW5h/X1N1bW1lcnNfUGhv/dG9zX0lEMTE0MDYu/d2VicA", "alt": "Biblioteca Autônoma" }
+      { "url": "images/projects/biblioteca-autonoma.jpg", "alt": "Smart Hydrometer AI" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Biblioteca Autônoma",
+    "category": "software",
+    "year": "Agosto 2025",
+    "description": "Ecossistema de armários inteligentes com modo físico (RFID, tranca digital e display) e modo web administrativo, sincronizados via banco de dados JSON em tempo real.",
+    "links": [
+      { "name": "GitHub", "url": "https://www.github.com/MarinoMouzinho/BIbliotecaAutonoma/" }
+    ],
+    "technologies": ["C++", "RFID", "JSON", "Hardware"],
+    "images": [
+      { "url": "images/projects/biblioteca-autonoma.jpg", "alt": "Biblioteca Autônoma" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Adriana Sintaxe 18500",
+    "category": "web",
+    "year": "2024",
+    "description": "Landing page desenvolvida para a campanha partidária da candidata a vereadora Adriana Sintaxe, apresentando sua trajetória e propostas.",
+    "links": [],
+    "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    "images": [
+      { "url": "images/projects/sintaxe-turismo.jpg", "alt": "Adriana Sintaxe 18500" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Backstabbers",
+    "category": "web",
+    "year": "2024",
+    "description": "Protótipo de estudo para um site informativo/corporativo do jogo de cartas/tabuleiro nacional 'Backstabbers'. Todas as imagens pertencem aos criadores originais e foram utilizadas estritamente para fins acadêmicos e de design.",
+    "links": [
+      { "name": "Figma", "url": "https://www.figma.com/proto/p972VCFIhDoPCNf4AaNmL4/Prototipo---BackS?node-id=60-52&starting-point-node-id=1%3A2&t=KfenyFihrhMobGFY-1" }
+    ],
+    "technologies": ["Figma", "UI/UX", "Prototipagem"],
+    "images": [
+      { "url": "images/projects/sintaxe-turismo.jpg", "alt": "Backstabbers Protótipo" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Delivery!",
+    "category": "jogos",
+    "year": "2023",
+    "description": "Jogo em ASCII para terminais Linux desenvolvido inteiramente em C++ como parte da disciplina de Programação Orientada a Objetos do IFPB.",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/MarinoMouzinho/Delivery" }
+    ],
+    "technologies": ["C++", "Terminal Linux"],
+    "images": [
+      { "url": "images/projects/qa-automation.jpg", "alt": "Delivery!" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Drink!",
+    "category": "jogos",
+    "year": "2023",
+    "description": "Jogo ASCII para terminais Linux desenvolvido em C++ em paralelo com 'Delivery!', servindo como um spin-off da obra original.",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/MarinoMouzinho/Drink-Game" }
+    ],
+    "technologies": ["C++", "Terminal Linux"],
+    "images": [
+      { "url": "images/projects/qa-automation.jpg", "alt": "Drink!" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Painel Sintaxe",
+    "category": "software",
+    "year": "2023",
+    "description": "Sistema Fullstack de Booking, gerenciamento de viagens, impressão via impressora térmica e autenticação de bilhetes rodoviários.",
+    "links": [],
+    "technologies": ["React", "Node.js", "TypeScript", "Firebase"],
+    "images": [
+      { "url": "images/projects/sintaxe-turismo.jpg", "alt": "Painel Sintaxe" }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "(de)CODIFIQUE",
+    "category": "web",
+    "year": "2022",
+    "description": "Página web desenvolvida para codificação e decodificação de mensagens no âmbito do primeiro Desafio Sprint Alura.",
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/MarinoMouzinho/de-codifique/" },
+      { "name": "Live Demo", "url": "https://marinomouzinho.github.io/de-codifique/" }
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "images": [
+      { "url": "images/projects/biblioteca-autonoma.jpg", "alt": "(de)CODIFIQUE" }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Jogo da Forca",
+    "category": "web",
+    "year": "2022",
+    "description": "Versão web do clássico jogo da forca desenvolvida como parte do segundo Desafio Sprint Oracle + Alura.",
+    "links": [
+      { "name": "GitHub", "url": "https://www.github.com/MarinoMouzinho/challenge-forca/" },
+      { "name": "Live Demo", "url": "https://marinomouzinho.github.io/challenge-forca/" }
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "images": [
+      { "url": "images/projects/qa-automation.jpg", "alt": "Jogo da Forca" }
     ]
   }
 ]
