@@ -662,7 +662,30 @@ body, .site-content {
   transform: translateX(4px);
 }
 
+.scroll-indicator {
+  display: none;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(4px); }
+  60% { transform: translateY(2px); }
+}
+
 @media (max-width: 768px) {
+
+  .scroll-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+    padding: 0.5rem var(--content-padding);
+    animation: bounce 2s infinite;
+  }
 
   .site-shell {
     display: flex;
