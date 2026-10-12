@@ -43,23 +43,28 @@ function renderProjects(projects) {
     
     let mediaContent = "";
     if (isSlider) {
-      const imagesHtml = project.images.map(img => `<img src="${img.url}" alt="${img.alt}" loading="lazy">`).join("");
+      const slidesHtml = project.images.map(img => `
+        <div class="project-slide-item">
+          <img src="${img.url}" alt="${img.alt}" loading="lazy">
+          ${img.subtitle ? `<div class="project-slide-caption">${img.subtitle}</div>` : ""}
+        </div>
+      `).join("");
+
       mediaContent = `
         <div class="project-media-wrapper">
-          <div class="project-media-container is-slider">
-            <div class="project-slider-track">
-              ${imagesHtml}
-              ${imagesHtml}
-            </div>
+          <span class="swipe-hint">← arraste para ver mais →</span>
+          <div class="project-manual-slider">
+            ${slidesHtml}
           </div>
         </div>
       `;
     } else {
-      const img = project.images[0] || { url: "", alt: "" };
+      const img = project.images[0] || { url: "", alt: "", subtitle: "" };
       mediaContent = `
         <div class="project-media-wrapper">
           <div class="project-media-container">
             <img src="${img.url}" alt="${img.alt}" loading="lazy">
+            ${img.subtitle ? `<div class="project-slide-caption">${img.subtitle}</div>` : ""}
           </div>
         </div>
       `;
@@ -100,6 +105,11 @@ function renderProjects(projects) {
 
   // Ativa os ouvintes de clique dos filtros após os cards estarem renderizados
   setupFilterListeners();
+
+  const projetosSection = document.getElementById("projetos");
+  if (projetosSection) {
+    projetosSection.classList.add("in-view");
+  }
 }
 
 loadProjects();

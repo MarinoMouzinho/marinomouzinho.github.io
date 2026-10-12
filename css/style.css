@@ -486,14 +486,13 @@ body, .site-content {
 .project-media-wrapper {
   width: calc(100% + (2 * var(--content-padding)));
   margin-left: calc(-1 * var(--content-padding));
-  overflow: hidden;
-  /* background: #dddddd; */
   position: relative;
+  /* overflow: hidden; */
 }
 
 .project-media-container {
   width: 100%;
-  height: 420px; /* Altura fixa do banner */
+  height: 380px; /* Altura fixa do banner */
   position: relative;
   overflow: hidden;
 }
@@ -504,35 +503,6 @@ body, .site-content {
   height: 100%;
   object-fit: cover;
   display: block;
-}
-
-/* Múltiplas imagens (Slider / Loop Infinito da direita para esquerda) */
-.project-slider-track {
-  display: flex;
-  height: 100%;
-  width: max-content;
-  animation: infiniteScrollLoop 35s linear infinite;
-}
-
-.project-slider-track:hover {
-  animation-play-state: paused; /* Pausa suavemente ao passar o mouse se o usuário quiser focar */
-}
-
-.project-slider-track img {
-  height: 100%;
-  width: auto; /* Mantém a largura original preservada sem normalizar */
-  object-fit: cover;
-  display: block;
-  margin-right: 20px; /* Espaçamento entre as imagens no loop */
-}
-
-@keyframes infiniteScrollLoop {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%); /* Roda exatamente a metade (já que duplicamos os elementos no HTML) */
-  }
 }
 
 /* Ajustes de espaçamento do card para acomodar o banner solto em cima */
@@ -670,6 +640,80 @@ body, .site-content {
   0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
   40% { transform: translateY(4px); }
   60% { transform: translateY(2px); }
+}
+
+
+/* Carrossel horizontal de imagens */
+.project-manual-slider {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-inline: var(--content-padding);
+  padding-left: var(--content-padding);
+  padding-right: var(--content-padding);
+  padding-bottom: 0.5rem;
+}
+
+.project-manual-slider::-webkit-scrollbar {
+  display: none;
+}
+
+/* Cada slide respeita a proporção da própria imagem */
+.project-slide-item {
+  position: relative;
+  flex: 0 0 auto;
+  width: max-content;
+  height: 380px;
+  scroll-snap-align: start;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #111;
+}
+
+/* Altura fixa e largura proporcional à imagem original */
+.project-slide-item img {
+  display: block;
+  height: 100%;
+  width: auto;
+  max-width: none;
+  object-fit: contain;
+}
+
+/* Legenda em barra preta fininha sobreposta embaixo */
+.project-slide-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: #ffffff;
+  font-size: 0.8rem;
+  padding: 0.5rem 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+
+/* Aviso de arraste */
+.swipe-hint {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding-inline: var(--content-padding);
 }
 
 @media (max-width: 768px) {
