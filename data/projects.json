@@ -8,7 +8,7 @@
     "links": [],
     "technologies": ["IA", "LLM", "Sistemas Agênticos"],
     "images": [
-      { "url": "images/projects/sintaxe-turismo.jpg", "alt": "Viajante" }
+      { "url": "images/projects/viajante.png", "alt": "Viajante", "subtitle":"" }
     ]
   },
   {
@@ -22,7 +22,9 @@
     ],
     "technologies": ["Android Studio", "Kotlin", "Mobile"],
     "images": [
-      { "url": "images/projects/sintaxe-turismo.jpg", "alt": "Sequencia!" }
+      { "url": "images/projects/sequencia.png", "alt": "Sequencia!", "subtitle":"" },
+      { "url": "images/projects/sequencia-home.png", "alt": "Sequencia!", "subtitle":"Tela Principal" },
+      { "url": "images/projects/sequencia-game.png", "alt": "Sequencia!", "subtitle":"Partida" }
     ]
   },
   {
@@ -36,7 +38,7 @@
     ],
     "technologies": ["IoT", "Inteligência Artificial", "Hardware"],
     "images": [
-      { "url": "images/projects/biblioteca-autonoma.jpg", "alt": "Smart Hydrometer AI" }
+      { "url": "images/projects/hidrometro.png", "alt": "Smart Hydrometer AI", "subtitle":"" }
     ]
   },
   {
@@ -50,7 +52,7 @@
     ],
     "technologies": ["C++", "RFID", "JSON", "Hardware"],
     "images": [
-      { "url": "images/projects/biblioteca-autonoma.jpg", "alt": "Biblioteca Autônoma" }
+      { "url": "images/projects/biblioteca.png", "alt": "Biblioteca Autônoma", "subtitle":"" }
     ]
   },
   {
@@ -62,7 +64,7 @@
     "links": [],
     "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     "images": [
-      { "url": "images/projects/sintaxe-turismo.jpg", "alt": "Adriana Sintaxe 18500" }
+      { "url": "images/projects/adriana.png", "alt": "Adriana Sintaxe 18500", "subtitle":"" }
     ]
   },
   {
@@ -72,11 +74,15 @@
     "year": "2024",
     "description": "Protótipo de estudo para um site informativo/corporativo do jogo de cartas/tabuleiro nacional 'Backstabbers'. Todas as imagens pertencem aos criadores originais e foram utilizadas estritamente para fins acadêmicos e de design.",
     "links": [
-      { "name": "Figma", "url": "https://www.figma.com/proto/p972VCFIhDoPCNf4AaNmL4/Prototipo---BackS?node-id=60-52&starting-point-node-id=1%3A2&t=KfenyFihrhMobGFY-1" }
+      { "name": "Protótipo (Figma)", "url": "https://www.figma.com/proto/p972VCFIhDoPCNf4AaNmL4/Prototipo---BackS?node-id=60-52&starting-point-node-id=1%3A2&t=KfenyFihrhMobGFY-1" }
     ],
     "technologies": ["Figma", "UI/UX", "Prototipagem"],
     "images": [
-      { "url": "images/projects/sintaxe-turismo.jpg", "alt": "Backstabbers Protótipo" }
+      { "url": "images/projects/backstabbers-1.png", "alt": "Backstabbers Protótipo", "subtitle":"" },
+      { "url": "images/projects/backstabbers-2.png", "alt": "Backstabbers Protótipo", "subtitle":"" },
+      { "url": "images/projects/backstabbers-3.png", "alt": "Backstabbers Protótipo", "subtitle":"" },
+      { "url": "images/projects/backstabbers-4.png", "alt": "Backstabbers Protótipo", "subtitle":"" },
+      { "url": "images/projects/backstabbers-5.png", "alt": "Backstabbers Protótipo", "subtitle":"" }
     ]
   },
   {
@@ -84,13 +90,18 @@
     "title": "Delivery!",
     "category": "jogos",
     "year": "2023",
-    "description": "Jogo em ASCII para terminais Linux desenvolvido inteiramente em C++ como parte da disciplina de Programação Orientada a Objetos do IFPB.",
+    "description": "Jogo RPG em ASCII para terminais Linux desenvolvido inteiramente em C++ como parte da disciplina de Programação Orientada a Objetos do IFPB.",
     "links": [
       { "name": "GitHub", "url": "https://github.com/MarinoMouzinho/Delivery" }
     ],
     "technologies": ["C++", "Terminal Linux"],
     "images": [
-      { "url": "images/projects/qa-automation.jpg", "alt": "Delivery!" }
+      { "url": "images/projects/Delivery.png", "alt": "Capa do jogo Delivery", "subtitle":"" },
+      { "url": "images/projects/delivery-game.png", "alt": "Menu principal", "subtitle":"Menu Principal" },
+      { "url": "images/projects/delivery-sobre.png", "alt": "Sobre Delivery", "subtitle":"Sobre o projeto" },
+      { "url": "images/projects/delivery-create.png", "alt": "Criar um personagem", "subtitle":"Criar um Personagem" },
+      { "url": "images/projects/delivery-attack.png", "alt": "Tela de batalha", "subtitle":"Cena de batalha" },
+      { "url": "images/projects/delivery-mapa.png", "alt": "Mapa mundial do jogo", "subtitle":"Overworld" }
     ]
   },
   {
@@ -98,13 +109,15 @@
     "title": "Drink!",
     "category": "jogos",
     "year": "2023",
-    "description": "Jogo ASCII para terminais Linux desenvolvido em C++ em paralelo com 'Delivery!', servindo como um spin-off da obra original.",
+    "description": "Jogo estilo Score Attack em ASCII para terminais Linux desenvolvido em C++, spin-off de 'Delivery!'. Inspirado no jogo 'Root Bear'.",
     "links": [
       { "name": "GitHub", "url": "https://github.com/MarinoMouzinho/Drink-Game" }
     ],
     "technologies": ["C++", "Terminal Linux"],
     "images": [
-      { "url": "images/projects/qa-automation.jpg", "alt": "Drink!" }
+      { "url": "images/projects/drink.png", "alt": "Drink!", "subtitle":"" },
+      { "url": "images/projects/drink-menu.png", "alt": "Drink!", "subtitle":"Menu Principal" },
+      { "url": "images/projects/drink-game.png", "alt": "Drink!", "subtitle":"Partida" }
     ]
   },
   {
@@ -116,7 +129,7 @@
     "links": [],
     "technologies": ["React", "Node.js", "TypeScript", "Firebase"],
     "images": [
-      { "url": "images/projects/sintaxe-turismo.jpg", "alt": "Painel Sintaxe" }
+      { "url": "images/projects/sintaxe-turismo.png", "alt": "Painel Sintaxe", "subtitle":"" }
     ]
   },
   {
@@ -131,7 +144,8 @@
     ],
     "technologies": ["HTML", "CSS", "JavaScript"],
     "images": [
-      { "url": "images/projects/biblioteca-autonoma.jpg", "alt": "(de)CODIFIQUE" }
+      { "url": "images/projects/Decodifique.png", "alt": "Capa do projeto decodifique", "subtitle":"" },
+      { "url": "images/projects/decodifique-demo.png", "alt": "Demonstração do site decodifique", "subtitle":"" }
     ]
   },
   {
@@ -146,7 +160,9 @@
     ],
     "technologies": ["HTML", "CSS", "JavaScript"],
     "images": [
-      { "url": "images/projects/qa-automation.jpg", "alt": "Jogo da Forca" }
+      { "url": "images/projects/Forca.png", "alt": "Capa - Jogo da Forca", "subtitle":"" },
+      { "url": "images/projects/Forca_web.png", "alt": "Jogo da Forca no navegador web", "subtitle":"Versão desktop"},
+      { "url": "images/projects/Forca_mobile.png", "alt": "Jogo da Forca no formato mobile", "subtitle":"Versão mobile"}
     ]
   }
 ]
